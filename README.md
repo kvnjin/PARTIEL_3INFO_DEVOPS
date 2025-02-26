@@ -38,4 +38,4 @@ Ce dépôt contient un projet Python simple avec :
 
 ## Badge pour le Linter
 
-[![Run Linter](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/eslint.yml/badge.svg?branch=master)](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/eslint.yml)
+[![Run Linter](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/eslint.yml/badge.svg)](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/eslint.yml)
