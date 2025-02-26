@@ -1,21 +1,18 @@
-from app import add, multiply, divide, greet
+def add(a, b):
+    """Ajoute deux nombres."""
+    return a + b
 
+def multiply( x,y ):
+    return x*y
 
-def test_add():
-    assert add(2, 3) == 5
+def divide(x , y ):
+    beta = 0
+    if y != 0:
+        return x/y
 
-
-def test_multiply():
-    assert multiply(2, 3) == 6
-
-
-def test_divide():
-    assert divide(10, 2) == 5
-    assert divide(10, 0) is None
-
-
-def test_greet():
-    assert greet("") == "Hello, World!"
-    assert greet("Alice") == "Hello, Alice!"
-
-
+def greet(name):
+    # GREET FONCTION
+    if name =="":
+        return "Hello, World!"
+    else:
+       return "Hello,"+name
