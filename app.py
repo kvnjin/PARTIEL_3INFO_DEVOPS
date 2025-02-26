@@ -1,4 +1,3 @@
-import pytest
 from app import add, multiply, divide, greet
 
 
@@ -18,3 +17,4 @@ def test_divide():
 def test_greet():
     assert greet("") == "Hello, World!"
     assert greet("Alice") == "Hello, Alice!"
+
