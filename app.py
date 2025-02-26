@@ -1,20 +1,15 @@
-def add(a, b):
-    """Ajoute deux nombres."""
-    return a + b
+def test_add():
+    assert add(1, 2) == 3
 
 
-def multiply(x, y):
-    return x * y
+def test_multiply():
+    assert multiply(2, 3) == 6
 
 
-def divide(x, y):
-    if y != 0:
-        return x / y
+def test_divide():
+    assert divide(4, 2) == 2
 
 
-def greet(name):
-    # GREET FUNCTION
-    if name == "":
-        return "Hello, World!"
-    else:
-        return "Hello, " + name
+def test_greet():
+    assert greet("Alice") == "Hello, Alice"
+    assert greet("") == "Hello, World!"
