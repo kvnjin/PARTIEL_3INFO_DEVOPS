@@ -29,3 +29,8 @@ Ce dépôt contient un projet Python simple avec :
 7. Rendre le lien de votre répository contenant les github actions que vous aurez implémenté. 
 
 ***Attention à bien mettre votre repository en PUBLIC !***
+
+
+## Badge pour le test python 
+
+[![CI Pipeline](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/main.yml/badge.svg)](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/main.yml)
