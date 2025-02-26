@@ -19,4 +19,3 @@ def test_greet():
     assert greet("Alice") == "Hello, Alice!"
 
 
-# Add two blank lines after the last function
