@@ -1,18 +1,20 @@
-def add(a, b):
-    return a + b
+import pytest
+from app import add, multiply, divide, greet
 
 
-def multiply(x, y):
-    return x * y
+def test_add():
+    assert add(2, 3) == 5
 
 
-def divide(x, y):
-    if y != 0:
-        return x / y
-    return None
+def test_multiply():
+    assert multiply(2, 3) == 6
 
 
-def greet(name):
-    if name == "":
-        return "Hello, World!"
-    return "Hello, " + name
+def test_divide():
+    assert divide(10, 2) == 5
+    assert divide(10, 0) is None
+
+
+def test_greet():
+    assert greet("") == "Hello, World!"
+    assert greet("Alice") == "Hello, Alice!"
