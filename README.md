@@ -33,4 +33,4 @@ Ce dépôt contient un projet Python simple avec :
 
 ## Badge pour le test python 
 
-[![CI Pipeline](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/main.yml/badge.svg)](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/main.yml)
+[![Run Tests](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/main.yml/badge.svg)](https://github.com/kvnjin/PARTIEL_3INFO_DEVOPS/actions/workflows/main.yml)
